@@ -15,7 +15,7 @@ function Reload({ getData }) {
                 <div className='row'>
                     {
                         getData.map(el => (
-                            <div className='col-lg-3 g-5 col-md-6 col-sm-6 col-12'>
+                            <div className='col-12 col-sm-6 col-md-4 col-xl-3'>
                                 <div className="card">
                                     <img src={el.images} className="card-img-top" alt="..." />
                                     <div className="card-body">
@@ -39,7 +39,7 @@ function PlaceHolder() {
         <>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-lg-3 g-5 col-md-6 col-sm-6 col-12'>
+                    <div className='col-12 col-sm-6 col-md-4 col-xl-3'>
                         <div className="card" aria-hidden="true">
                             <img src="https://via.placeholder.com/640x360" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -57,7 +57,7 @@ function PlaceHolder() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-3 g-5 col-md-6 col-sm-6 col-12'>
+                    <div className='col-12 col-sm-6 col-md-4 col-xl-3'>
                         <div className="card" aria-hidden="true">
                             <img src="https://via.placeholder.com/640x360" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -75,7 +75,7 @@ function PlaceHolder() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-3 g-5 col-md-6 col-sm-6 col-12'>
+                    <div className='col-12 col-sm-6 col-md-4 col-xl-3'>
                         <div className="card" aria-hidden="true">
                             <img src="https://via.placeholder.com/640x360" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -93,7 +93,7 @@ function PlaceHolder() {
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-3 g-5 col-md-6 col-sm-6 col-12'>
+                    <div className='col-12 col-sm-6 col-md-4 col-xl-3'>
                         <div className="card" aria-hidden="true">
                             <img src="https://via.placeholder.com/640x360" className="card-img-top" alt="..." />
                             <div className="card-body">
